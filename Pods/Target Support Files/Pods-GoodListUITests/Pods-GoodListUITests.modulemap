@@ -1,0 +1,6 @@
+framework module Pods_GoodListUITests {
+  umbrella header "Pods-GoodListUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
