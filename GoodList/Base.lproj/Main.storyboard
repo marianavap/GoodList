@@ -26,6 +26,9 @@
                                     <segment title="Medium"/>
                                     <segment title="Low"/>
                                 </segments>
+                                <connections>
+                                    <action selector="priorityValueChangeWithSegmentedControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="iUr-Vo-HVn"/>
+                                </connections>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="r9l-JG-I9g">
                                 <rect key="frame" x="0.0" y="174.5" width="414" height="687.5"/>
@@ -140,7 +143,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pap-aE-zaU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="134.78260869565219" y="771.42857142857144"/>
+            <point key="canvasLocation" x="151" y="127"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8AL-tN-6Ln">
